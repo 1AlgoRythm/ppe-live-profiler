@@ -54,6 +54,16 @@ For a headless smoke test of the same loop: `--no-display --max-frames 20 [--key
 
 ## Results
 
+<!-- charts:start -->
+### Charts
+
+Drawn from the JSON in `results/` by `scripts/make_charts.py`; the tables below hold the exact numbers.
+
+![End-to-end FPS by configuration](docs/fps.png)
+
+![Share of frame time per stage](docs/stage_share.png)
+<!-- charts:end -->
+
 Benchmark: `--repeats 5` over `data/test_video.mp4` (200 frames, 1280x720, 40 test images held for 5
 frames each), 10 warm-up frames per
 config, configs interleaved across repeats. Every number below is generated from the JSON in `results/`.

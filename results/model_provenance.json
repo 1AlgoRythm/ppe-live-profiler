@@ -1,0 +1,54 @@
+{
+ "person_fp32": {
+  "source": "/Users/satyaags/Projects/ppe-quantization-lab/models/person_fp32.onnx",
+  "source_sha256": "21dcedbaa22798826bdce3097a249f6ac7ce515d2645ca7dbfe21b6d1f6536fa",
+  "copy_640": "person_fp32_640.onnx",
+  "sha256_640": "21dcedbaa22798826bdce3097a249f6ac7ce515d2645ca7dbfe21b6d1f6536fa",
+  "patched_320": "person_fp32_320.onnx",
+  "sha256_320": "e6f440253f8205a34a54b67575d62c161f727e33051e509029af7757e779d05b",
+  "output_shape_320": [
+   1,
+   5,
+   2100
+  ]
+ },
+ "person_int8": {
+  "source": "/Users/satyaags/Projects/ppe-quantization-lab/models/person_int8.onnx",
+  "source_sha256": "276ac4a96d92cd62fa050f92e92e99d4e43d761aa2c73a420dd44f01e153d34b",
+  "copy_640": "person_int8_640.onnx",
+  "sha256_640": "276ac4a96d92cd62fa050f92e92e99d4e43d761aa2c73a420dd44f01e153d34b",
+  "patched_320": "person_int8_320.onnx",
+  "sha256_320": "29aa97cda9283fda83ad73a7e0d9ecdf20bcfcf5e20214c609c020fe108f351d",
+  "output_shape_320": [
+   1,
+   5,
+   2100
+  ]
+ },
+ "ppe_fp32": {
+  "source": "/Users/satyaags/Projects/ppe-quantization-lab/models/ppe_fp32.onnx",
+  "source_sha256": "a916aa7cb854050985b068ac3083b385ab6c558c9be44fba521473faf6a52639",
+  "copy_640": "ppe_fp32_640.onnx",
+  "sha256_640": "a916aa7cb854050985b068ac3083b385ab6c558c9be44fba521473faf6a52639",
+  "patched_320": "ppe_fp32_320.onnx",
+  "sha256_320": "6a5165740a16642dd0a2c52e9ad12f62ab8d5ee0a0f476545b30c90659d2ad24",
+  "output_shape_320": [
+   1,
+   11,
+   2100
+  ]
+ },
+ "ppe_int8": {
+  "source": "/Users/satyaags/Projects/ppe-quantization-lab/models/ppe_int8.onnx",
+  "source_sha256": "e496048452e27f12476fc44a827d7f822f04bc842a6fe0981a449f22bf739857",
+  "copy_640": "ppe_int8_640.onnx",
+  "sha256_640": "e496048452e27f12476fc44a827d7f822f04bc842a6fe0981a449f22bf739857",
+  "patched_320": "ppe_int8_320.onnx",
+  "sha256_320": "1d1be6c2e35862d24e40ba31181e6046a3b3de391d9bedbad572917fc7f902a8",
+  "output_shape_320": [
+   1,
+   11,
+   2100
+  ]
+ }
+}
